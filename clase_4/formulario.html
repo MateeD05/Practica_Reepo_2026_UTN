@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad</title>
+</head>
+<body style="background-color: grey;">
+    <header>
+        <h1 style="text-decoration: solid;">Mi actividad para la clase 4</h1>
+    </header>
+
+    <main>
+        <form>
+            <div>
+                <label for="nombre">Name:</label>
+                <input type="text" id="nombre" name="nombre">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="mail">
+            </div>
+            <div>
+                <label for="Password">Password</label>
+                <input type="password" id="Password" name="contraseña">
+            </div>
+            <p style="color: aquamarine;">Please check all the emotions that apply to you:</p>
+            <div>
+                <label for="Angry">Angry</label>
+                <input type="checkbox" id="Angry" name="enojado" checked>
+            </div>
+            <div>
+                <label for="Sad">Sad</label>
+                <input type="checkbox" id="Sad" name="triste">
+            </div>
+            <div>
+                <label for="Happy">Happy</label>
+                <input type="checkbox" id="Happy" name="feliz">
+            </div>
+            <div>
+                <label for="Ambivalent">Ambivalent</label>
+                <input type="checkbox" id="Ambivalent" name="ambivalente">
+            </div>
+            <p>How satisfied were you with our sevice?</p>
+            <div>
+                <label for="satisfied">Very satisfied</label>
+                <input type="radio" id="satisfied" name="muy" checked>
+            </div>
+            <div>
+                <label for="satisfied">satisfied</label>
+                <input type="radio" id="satisfied" name="muy">
+            </div>
+            <div>
+                <label for="satisfied">Didn't care</label>
+                <input type="radio" id="satisfied" name="muy">
+            </div>
+            <div>
+                <label for="satisfied">Dissatisfied</label>
+                <input type="radio" id="satisfied" name="muy">
+            </div>
+            <div>
+                <label for="satisfied">Very Dissatisfied</label>
+                <input type="radio" id="satisfied" name="muy">
+            </div>
+            <div>
+                <label for="comentarios">Further comments:</label>
+                <textarea name="comentarios" id="comentarios" rows="3" cols="28"></textarea>
+            </div>
+            <div>
+                <label for="photo">Bio photo:</label>
+                <input type="file" id="photo" name="foto">
+            </div>
+            <div>
+                <label for="location">Location visited:</label>
+                <select name="location" id="location">
+                    <option value="Argentina">Argentina</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="Alemania">Alemania</option>
+                    <option value="Jamaica">Jamaica</option>
+                    <option value="Chile">Chile</option>
+                    <option value="NA" selected>Select location</option>
+                </select>
+            </div>
+            <div>
+                <input type="submit">
+            </div>
+        </form>
+    </main>
+
+</body>
+</html>
