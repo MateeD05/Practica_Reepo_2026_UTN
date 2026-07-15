@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.father{
+    height: 100vh;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.son{
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.son:nth-child(1){
+    background-color: blueviolet;
+}
+
+.son:nth-child(2){
+    background-color: brown;
+    position: absolute;
+
+
+/*     position: relative;
+    top: 200px;
+    left: 20px; */
+}
+
+.son:nth-child(3){
+    background-color: blue;
+}
