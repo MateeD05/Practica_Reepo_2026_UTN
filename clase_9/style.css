@@ -125,6 +125,7 @@ header {
 
 .video-major{
     position: relative;
+    background-color: #101011;
 }
 
 .video{
@@ -139,6 +140,7 @@ header {
     z-index: 1;
     display: flex;
     margin: 20px 50px;
+    background-color: #101011;
 }
 
 .text-over-video{
@@ -147,12 +149,46 @@ header {
     position: absolute;
     z-index: 10;
     color: white;
-    top: 300px;
-    left: 170px;
-    gap: 60px;
+    top: 260px;
+    left: 250px;
+   /*  gap: 30px; */
 }
 
 .button-video{
     position: absolute;
     z-index: 10;
+    left: 1640px;
+    top: 651px;
+}
+
+.start-button{
+    width: 180px;
+    height: 60px;
+    padding: 12px 48px;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bold;
+    background-color: white;
+    margin-bottom: 15px;
+    border: none;
+}
+
+.text-major{
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+
+.span-major{
+    margin: 0 0 24px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.button-stop{
+    border-radius: 100%;
+    background-color: transparent;
+    border-color: white;
+    padding: 4px;
+    cursor: pointer;
 }
