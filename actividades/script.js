@@ -108,3 +108,75 @@ console.log(restar(50, 20)) */
 
 // EJERCICIO #11
 
+/* function calcular(operacion, a, b){
+    let resultado = 0
+    if(operacion === "+"){
+        resultado = (a + b)
+    }
+    else if(operacion === "-"){
+        resultado = (a - b)
+    }
+    else{
+        return (null)
+    }
+    return(resultado)
+}
+
+console.log(calcular("-", 5, 10)) */
+
+
+// EJERCICIO #12
+
+/* function contarHasta(numero){
+    let i = 1;
+    while(
+        i <= numero 
+    ){
+        console.log(i);
+        i = i + 1;
+    }
+}
+
+contarHasta(50) */
+
+
+// EJERCICIO #13
+
+/* function calculadora(a, b, operacion){
+    if(operacion === "+"){
+        return (a + b)
+    }
+    else if(operacion === "-"){
+        return (a - b)
+    }
+    else if(operacion === "*"){
+        return (a * b)
+    }
+    else if(operacion === "/"){
+        return (a / b)
+    }
+    else{
+        return ("Operacion no valida")
+    }
+}
+
+let deseaCalculadora = prompt("Deseas usar la calculadora?");
+
+while (deseaCalculadora !== null && deseaCalculadora.toLocaleUpperCase() === "SI"){
+    let n1 = Number(prompt("Ingrese el primer numero"));
+    let n2 = Number(prompt("Ingrese el segundo numero"));
+    let op = prompt("Ingrese la operacion ( +, -, *, / )");
+    let resultado = calculadora(n1, n2, op);
+    alert("El resultado es: " + resultado);
+    deseaCalculadora = prompt("Desea volver a usar la calculadora?");
+}
+alert("El programa dejo de funcionar."); */
+
+
+// EJERCICIO #14 (NO ENTIENDO LA CONSIGNA)
+
+
+
+
+// EJERCICIO #15 (ES LA CONSIGNA 16 PERO COMO LA 15 NO ESTA ESCRITA LE PONGO LA 15 A LA 16 ASI QUEDA MAS ORDENADO.)
+
