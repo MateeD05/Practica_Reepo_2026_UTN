@@ -1,3 +1,7 @@
+// EJERCICIOS DE PRACTICA: https://docs.google.com/document/d/1wPi6o8t8cGyhAoGfW9RHIGNQrefuia__g2f9CH4QY5Q/edit?tab=t.0
+
+
+
 // EJERCICIO #1
 
 /* for(
@@ -179,4 +183,33 @@ alert("El programa dejo de funcionar."); */
 
 
 // EJERCICIO #15 (ES LA CONSIGNA 16 PERO COMO LA 15 NO ESTA ESCRITA LE PONGO LA 15 A LA 16 ASI QUEDA MAS ORDENADO.)
+
+
+/* function calcularPromedioAlturas() {
+  let sumaAlturas = 0;
+
+  for (let i = 1; i <= TOTAL_PERSONAS; i++) {
+    let entrada = prompt("Ingrese la altura de la persona (ejemplo: 1.82):");
+    let altura = parseFloat(entrada);
+
+
+    while (isNaN(altura) || altura <= 0) {
+      entrada = prompt("Entrada inválida. Ingrese nuevamente la altura:");
+      altura = parseFloat(entrada);
+    }
+
+    sumaAlturas += altura;
+  }
+
+  const promedio = sumaAlturas / 5;
+  
+  console.log("La altura promedio es: metros");
+  alert("La altura promedio de las 5 personas es: metros");
+}
+
+calcularPromedioAlturas(); */
+
+
+
+// EJERCICIO #16
 
