@@ -213,3 +213,79 @@ calcularPromedioAlturas(); */
 
 // EJERCICIO #16
 
+
+/* function askAgeMorning(){
+    let morningAgeAverage = 0;
+    for(let i = 0; i <= 5; i++){
+        let ageMorning = Number(prompt("insert your age"))
+
+        if(!isNaN(ageMorning)){
+            morningAgeAverage += ageMorning;
+        }
+    }
+    return morningAgeAverage / 5
+}
+
+
+function askAgeEvening(){
+    let eveningAgeAverage = 0
+    for(let i = 0; i <= 6; i++){
+        let ageEvening = Number(prompt("insert your age"))
+
+        if(!isNaN(ageEvening)){
+            eveningAgeAverage += ageEvening
+        }
+    }
+    return eveningAgeAverage / 6
+}
+
+
+function askAgeNight(){
+    let nightAgeAverage = 0
+    for(let i = 0; i <= 11; i++){
+        let ageNight = Number(prompt("insert your age"))
+
+        if(!isNaN(ageNight)){
+            nightAgeAverage += ageNight
+        }
+    }
+    return nightAgeAverage / 11
+}
+
+function promedioTodasLasEdades(){
+    console.log("average age of the morning shift: " + askAgeMorning())
+    console.log("average age of the afternoon shift " + askAgeEvening())
+    console.log("average age of the night shift " + askAgeNight())
+} */
+
+
+
+// EJERCICIO #18
+
+/* function mostrarInfoNumeros(){
+    let numerosNegativos = 0;
+    let numerosPositivos = 0;
+    let numerosMultiplos15 = 0;
+    let numerosPares = 0;
+
+    for(let i = 0; i <= 10; i++){
+        let numero = Number(prompt("ingrese un numero"))
+        if(numero < 0){
+            numerosNegativos += numero
+        }
+        else if(numero >= 0){
+            numerosPositivos += numero
+        }
+        else if(numero % 15 === 0){
+            numerosMultiplos15 += numero
+        }
+        else if(numero % 2 === 0){
+            numerosPares += numero
+        }
+    }
+    return {numerosNegativos, numerosPositivos, numerosMultiplos15, numerosPares};
+}
+
+const infoNumerosGeneral = mostrarInfoNumeros()
+
+console.log(infoNumerosGeneral) */
