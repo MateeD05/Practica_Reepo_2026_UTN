@@ -289,3 +289,7 @@ function promedioTodasLasEdades(){
 const infoNumerosGeneral = mostrarInfoNumeros()
 
 console.log(infoNumerosGeneral) */
+
+
+// EJERCICIO #19
+
