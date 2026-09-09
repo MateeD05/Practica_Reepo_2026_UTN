@@ -1,8 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router'
 
 export default function ContactOption(propiedades) {
   return (
-     <div >
+    <Link to={`/contact/${propiedades.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
+      <div>
         <div className='imagen-contacto-container'>
             <img src={propiedades.imagen} alt={propiedades.nombre} className="imagen-contacto" />
         </div>
@@ -11,6 +13,7 @@ export default function ContactOption(propiedades) {
         <span>{propiedades.fecha_ultimo_mensaje}</span>
         <span>{propiedades.mensajes_sin_leer}</span>
         <hr />
-    </div>
+      </div>
+    </Link>
   )
 }
