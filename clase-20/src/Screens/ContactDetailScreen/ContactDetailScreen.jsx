@@ -1,6 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router'
 import { contact_list } from '../../Components/ContactsList/ContactsList'
+import Sidebar from '../../Components/Sidebar/Sidebar'
 
 export default function ContactDetailScreen() {
   const { contact_id } = useParams()
@@ -14,6 +15,7 @@ export default function ContactDetailScreen() {
 
   return (
     <div>
+      <Sidebar />
       <h1>Detalle del contacto</h1>
       <h2>{contact.nombre}</h2>
       <p>Último mensaje: {contact.ultimo_mensaje}</p>
